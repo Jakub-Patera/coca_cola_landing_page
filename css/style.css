@@ -15,6 +15,7 @@ section{
     justify-content: space-between;
     align-items: center;
     background: #161616;
+    overflow: hidden;
 }
 section .circle{
     position: absolute;
@@ -183,4 +184,9 @@ header .navigation li a{
       margin-top:500px ;
       color: #fff;
   }
-  
+  .swiper-3d .swiper-slide-shadow-left{
+    background: none;
+  }
+  .swiper-3d .swiper-slide-shadow-right {
+    background: none;
+  }
